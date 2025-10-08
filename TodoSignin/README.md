@@ -18,7 +18,7 @@ npm install
 
 1. Start the server:
     ```bash
-    npm start
+    node index.js or nodemon index.js
     ```
 2. Open your browser and go to `http://localhost:3000`
 
