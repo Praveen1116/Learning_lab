@@ -42,3 +42,13 @@ TodoSignin/
 ├── package-lock.json
 ├── .env (ignored)
 ```
+## Screenshots of Todo app
+
+``` Sign-Up ```
+<img width="1919" height="966" alt="Screenshot 2025-10-08 182929" src="https://github.com/user-attachments/assets/45630c9c-33e3-41af-aa81-cbdd3cfb8e6e" />
+
+``` Sign-In ```
+<img width="1919" height="971" alt="Screenshot 2025-10-08 182946" src="https://github.com/user-attachments/assets/68b12a06-8d10-4de0-930b-bf3083b08f22" />
+
+``` Todos ```
+<img width="1915" height="969" alt="Screenshot 2025-10-08 183000" src="https://github.com/user-attachments/assets/eb325daf-2a2a-469c-8095-562355ddcfe5" />
