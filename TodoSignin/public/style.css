@@ -145,7 +145,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* or column, as you like */
+    flex-direction: column;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -202,9 +202,9 @@ body {
 
 #todosList {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 1rem;
-    justify-items: center; /* Center items horizontally */
+    justify-items: center; 
     padding: 1rem;
     list-style: none;
 }
