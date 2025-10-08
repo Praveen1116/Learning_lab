@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
+<body>
+    <div class="app"><h1>Todo APP</h1></div>
+
+    <div class="signup-section">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <input type="text" id="signupUsername" placeholder="Username" required>
+            <input type="password" id="signupPassword" placeholder="Password" required>
+            <button onclick="signup(event)">Sign Up</button>
+        </form>
+    </div>
+
+    <div class="signin-section" style="display: none;">
+        <h2>Sign In</h2>
+        <form id="signinForm">
+            <input type="text" id="signinUsername" placeholder="Username" required>
+            <input type="password" id="signinPassword" placeholder="Password" required>
+            <button onclick="signin(event)">Sign In</button>
+        </form>
+    </div>
+
+    <div id="todosSection" style="display:none;">
+        <h2>Welcome! <span id="user"></span>, Your Todos</h2>
+        <form id="addTodoForm">
+            <input type="text" id="todoInput" placeholder="Enter todo...", name="title" required>
+            <button id="add-btn" onclick="addTodo(event)">Add</button>
+        </form>
+        <ul id="todosList"></ul>
+        <button id="logout" onclick="logout()">Logout</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

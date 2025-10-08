@@ -1,0 +1,66 @@
+[
+  {
+    "username": "john",
+    "password": "123",
+    "todos": [
+      {
+        "id": 1758824932322,
+        "title": "gym at 4",
+        "done": false
+      },
+      {
+        "id": 1758826820646,
+        "title": "take class",
+        "done": false
+      }
+    ]
+  },
+  {
+    "username": "praveen",
+    "password": "123",
+    "todos": [
+      {
+        "id": 1758827248503,
+        "title": "game",
+        "done": false
+      },
+      {
+        "id": 1758827259258,
+        "title": "take class",
+        "done": true
+      },
+      {
+        "id": 1758890096704,
+        "title": "Hydrate",
+        "done": false
+      }
+    ]
+  },
+  {
+    "username": "kumar",
+    "password": "qwe",
+    "todos": [
+      {
+        "id": 1758890722138,
+        "title": "read",
+        "done": false
+      },
+      {
+        "id": 1758890729720,
+        "title": "psychology",
+        "done": false
+      }
+    ]
+  },
+  {
+    "username": "bob",
+    "password": "1234",
+    "todos": [
+      {
+        "id": 1758894959335,
+        "title": "class",
+        "done": false
+      }
+    ]
+  }
+]
