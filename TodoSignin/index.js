@@ -78,7 +78,7 @@ function auth(req, res, next) {
         req.username = decodedData.username;
         next();
     } else {
-        res.json({
+        res.status(401).json({
             message: "Token invalid!"
         })
     }
@@ -96,7 +96,7 @@ app.get("/me", auth, (req, res) => {
             todos: foundUser.todos
         });
     } else {
-        res.json({ message: "User not found" })
+        res.status(401).json({ message: "User not found" })
     }
 });
 
@@ -116,7 +116,7 @@ app.post("/api/todos/:username", auth, (req, res) => {
         }
     }
     else{
-        res.json({ message: "User not found "});
+        res.status(401).json({ message: "User not found "});
     }
 });
 
