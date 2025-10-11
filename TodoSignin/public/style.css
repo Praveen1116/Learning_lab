@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 2.1rem;
     font-weight: 700;
 }
 
@@ -287,5 +287,5 @@ body {
 }
 
 .done-btn:hover {
-    transform: scale(0.95);
+    transform: scale(0.90);
 }
